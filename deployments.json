@@ -1,0 +1,4 @@
+{
+    "frontendUrl" : "http://localhost:3000",
+    "backendUrl" : "http://localhos:8081"
+}

@@ -1,4 +1,4 @@
 {
-    "frontendUrl" : "http://localhost:3000",
-    "backendUrl" : "http://localhos:8081"
+  "frontendUrl": "https://8fc9-195-139-182-94.ngrok-free.app",
+  "backendUrl": "https://53e2-195-139-182-94.ngrok-free.app"
 }

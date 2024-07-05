@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const launchButton = document.getElementById('launchButton');
     
     try {
-      const response = await fetch('/deployments/mobile-speak.json');
+      const response = await fetch('https://haakoaho.github.io/deployments/mobile-speak.json');
       const data = await response.json();
       const mobileSpeakUrl = data.url;
   

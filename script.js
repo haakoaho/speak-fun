@@ -27,22 +27,6 @@ if ('serviceWorker' in navigator) {
     });
   }
   
-  document.addEventListener('DOMContentLoaded', async () => {
-    const launchButton = document.getElementById('launchButton');
-    
-    try {
-      const response = await fetch('/deployments/mobile-speak.json');
-      const data = await response.json();
-      const mobileSpeakUrl = data.url;
-  
-      launchButton.addEventListener('click', () => {
-        window.location.href = mobileSpeakUrl;
-      });
-    } catch (error) {
-      console.error('Error fetching mobile-speak URL:', error);
-    }
-  });
-  
   // PWA Installation
   let deferredPrompt;
   const installButton = document.createElement('button');
